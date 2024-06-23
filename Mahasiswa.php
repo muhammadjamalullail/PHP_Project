@@ -1,5 +1,7 @@
 <?php
-  class Mahasiswa {
+  require_once "Dosen.php"
+  require_once "Mata_kuliah.php"
+  class Mahasiswa extends Dosen {
     public string $name;
     public int $NPM;
 
