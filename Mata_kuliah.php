@@ -1,6 +1,6 @@
 <?php
   require_once "Dosen.php"
-  class MataKuliah {
+  class MataKuliah extends Dosen {
     public int $idMatkul;
     public string $namaMatkul;
     public int $sks;
